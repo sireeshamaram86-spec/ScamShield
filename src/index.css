@@ -1,0 +1,19 @@
+:root {
+  font-family: 'DM Sans', 'Avenir Next', sans-serif;
+  color: #1d2923;
+  background: #f7f9f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-smooth: never;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button { font-family: inherit; }
+button:focus-visible, a:focus-visible { outline: 2px solid #6ba889; outline-offset: 3px; }
+#root { min-height: 100vh; }
